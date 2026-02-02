@@ -1,5 +1,5 @@
 from flask import Flask, redirect, render_template,request, url_for
-from form import HealthDataForm
+from forms import HealthDataForm
 from flask_sqlalchemy import SQLAlchemy
 
 app=Flask(__name__)
